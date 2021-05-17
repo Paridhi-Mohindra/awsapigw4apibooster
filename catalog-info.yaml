@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "AWS API GW for API Booster"
+  description: "AWS API Gateway for API Booster"
+  annotations:
+    github.com/project-slug: pkot/awsapigw4apibooster
+    backstage.io/techdocs-ref: url:https://github.com/pkot/awsapigw4apibooster
+spec:
+  type: service
+  lifecycle: experimental
+  owner: "pkot"
